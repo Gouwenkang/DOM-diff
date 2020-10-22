@@ -36,6 +36,7 @@ const vDom1 = createElement('ul', {
     ])
 ]);
 
+
 const vDom2 = createElement('ul', {
     class: 'list-wrap',
     style: 'width: 300px; height: 300px; background-color: orange'
@@ -65,6 +66,7 @@ const vDom2 = createElement('ul', {
         '第3个列表项'
     ])
 ]);
+
 const rDom = render(vDom1)
 renderDom(rDom, document.getElementById("app"))
 

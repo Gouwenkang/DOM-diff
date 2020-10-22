@@ -7,8 +7,8 @@ import {
 import { setAttrs, render } from './virtualDom';
 import Element from './Element';
 
-let finalPatches = {},
-    rnIndex = 0;
+let finalPatches = {}
+let rnIndex = 0;
 
 export default function doPatch(rDom, patches) {
     finalPatches = patches;

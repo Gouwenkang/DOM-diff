@@ -8,7 +8,11 @@
 
 我们首先需要知道，虚拟DOM长什么样子，就像下面：
 
+<<<<<<< HEAD
 ![image-20201022202052275](https://raw.githubusercontent.com/Gouwenkang/DOM-diff/master/img/image-20201022202052275.png)
+=======
+![image-20201022202052275](https://github.com/Gouwenkang/DOM-diff/tree/master/img/image-20201022202052275.png)
+>>>>>>> b82469c7e0d8df2b781904264eded4c22ad6a82a
 
 我们来看看源码：
 
@@ -98,7 +102,11 @@ function setAttrs(node, prop, value) {
 
 最后我们得到了下面这样子的真实DOM
 
+<<<<<<< HEAD
 ![image-20201022203536014](https://raw.githubusercontent.com/Gouwenkang/DOM-diff/master/img/image-20201022202052275.png)
+=======
+![image-20201022203536014](https://github.com/Gouwenkang/DOM-diff/tree/master/img/image-20201022203536014.png)
+>>>>>>> b82469c7e0d8df2b781904264eded4c22ad6a82a
 
 然后我们便可以通过 `document.appendChild`的方法将它显示在页面上。
 
@@ -257,7 +265,11 @@ const vDom2 = createElement('ul', {
 
 会发现patch后的差异如下所示
 
+<<<<<<< HEAD
 ![image-20201022204729461](https://raw.githubusercontent.com/Gouwenkang/DOM-diff/master/img/image-20201022204729461.png)
+=======
+![image-20201022204729461](https://github.com/Gouwenkang/DOM-diff/tree/master/img/image-20201022204729461.png)
+>>>>>>> b82469c7e0d8df2b781904264eded4c22ad6a82a
 
 ### 打补丁
 
